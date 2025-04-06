@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+.post {
+    width: 400px;
+    background: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.post-header i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.post-header .username {
+    flex-grow: 1;
+    font-weight: bold;
+}
+.post-image {
+    width: 100%;
+}
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.post-icons i {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.bookmark {
+    margin-left: auto;
+}
+.likes, .post-text {
+    padding: 10px;
+    font-size: 14px;
+}
